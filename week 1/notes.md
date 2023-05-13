@@ -10,10 +10,19 @@ last two unknowns, and continued substituting until we recovered all of our unkn
 
 # gaussian elimination algorithm in augmented matrix
 ![gaussian](../images/gaussian.png)
+Observe that at the conclusion of Step 1, we are left with a matrix satisfying the following three properties:
+• All nonzero rows are above all zero rows.
+• The leading entries of a non-zero row is always to the right of the leading entries of the row above it.
+• All leading entries of non-zero rows are equal to 1.
 
-
-
-
+Step 2 corresponds to the “back-substitution" of variables performed in the previous examples. At the
+conclusion of Step 2, we are left with a matrix satisfying the following two properties:
+• The matrix is in row echelon form.
+• Each leading entry of a nonzero row is the only nonzero entry in its column.
+# reduced row echelon form
+Once an augmented matrix is reduced to reduced row echelon form, variables corresponding to
+columns containing leading entries are called basic variables, and the remaining variables are called free variables
+![basic-and-free](../images/basic-and-free-variables.png)
 
 
 
