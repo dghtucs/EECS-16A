@@ -8,7 +8,8 @@ we could solve directly
 4.Finally, we substituted the known value of the final unknown into a previous equation to recover the
 last two unknowns, and continued substituting until we recovered all of our unknowns!
 
-
+# gaussian elimination algorithm in augmented matrix
+![gaussian](../images/gaussian.png)
 
 
 
